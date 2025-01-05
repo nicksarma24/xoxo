@@ -11,23 +11,13 @@ export default function IndexPage() {
           TicTacToe Game <br className='hidden sm:inline' />
           built with Nextjs and Nakama.
         </h1>
-        <p className='max-w-[700px] text-lg text-muted-foreground'>
-          Demo for setting up a multiplayer online game with Nakama and Next.js.
-          open source.
-        </p>
+       
       </div>
       <div className='flex gap-4'>
         <Link href='/tictactoe' rel='noreferrer' className={buttonVariants()}>
           Start Game
         </Link>
-        <Link
-          target='_blank'
-          rel='noreferrer'
-          href={siteConfig.links.github}
-          className={buttonVariants({ variant: 'outline' })}
-        >
-          GitHub
-        </Link>
+       
       </div>
     </section>
   );
